@@ -50,7 +50,7 @@ def main():
     st.markdown(
         """
         <style>
-            .reportview-container {background-color:Orange;}
+            .reportview-container {background-color:White;}
         </style>
         """,
         unsafe_allow_html=True)
