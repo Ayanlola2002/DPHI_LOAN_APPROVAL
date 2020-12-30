@@ -78,18 +78,18 @@ def main():
         result = get_loan_prediction(Loan_ID,Gender,Married,Dependents,Education,Self_Employed,LoanAmount,Loan_Amount_Term,ApplicantIncome,CoapplicantIncome,Credit_History,Property_Area)
 
     if result == 1:
-        with st.spinner('Wait for it...'):
+        with st.spinner('Processing,Wait a while...'):
             time.sleep(2)
             st.success('Loan Approved')
             st.balloons()
     elif result == 0:
-        with st.spinner('Wait for it..'):
+        with st.spinner('Processing,Wait a while...'):
             time.sleep(1)
         st.success('Loan Rejected')
     else:
         st.success('Decision Pending')
 
-    st.markdown("""<h4 style="color:Black;text-align:center;">Hello from Pinky Chaudhary</h2>""", unsafe_allow_html=True)
+    st.markdown("""<h4 style="color:Black;text-align:center;">Loan APP 2020/h2>""", unsafe_allow_html=True)
 
 if __name__ == '__main__':
     main()
