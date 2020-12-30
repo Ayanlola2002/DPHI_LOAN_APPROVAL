@@ -55,7 +55,7 @@ def main():
         """,
         unsafe_allow_html=True)
     st.markdown("""
-    <div style="background-color:Yellow;padding:10px">
+    <div style="background-color:Blue;padding:10px">
         <h2 style="color:Black;text-align:center;">Loan Approval Prediction App </h2>
     </div>
     """, unsafe_allow_html=True)
@@ -89,7 +89,7 @@ def main():
     else:
         st.success('Decision Pending')
 
-    st.markdown("""<h4 style="color:Black;text-align:center;">Loan APP 2020/h2>""", unsafe_allow_html=True)
+    st.markdown("""<h4 style="color:Black;text-align:center;">Loan APP 2020</h2>""", unsafe_allow_html=True)
 
 if __name__ == '__main__':
     main()
